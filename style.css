@@ -59,7 +59,14 @@ body{
 
 .screenshot {
 float: left;
-width: 50%;
+
+width: 46%;
+   
+    float: right;
+    margin-bottom: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
 }
 
 .screen {
@@ -71,8 +78,8 @@ width: 50%;
 .text{
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(75, 75, 50);
-    width: 320px;
+    color: rgb(11, 11, 1);
+    width: 30%;
     padding: 10px;
     margin: 0;
 }
@@ -81,3 +88,8 @@ footer ul li{
     float: left;
     padding: 20px;
     text-align: center;
+
+#phone{
+    margin-left: 50px;
+    padding: 100px;
+}
