@@ -1,0 +1,83 @@
+
+
+/*navbar*/
+.nav{
+    width: 97%;
+    height: 50px;
+    background-color: #faf9f9;
+    margin: 20px;
+    opacity: 70%;
+    text-decoration: none;
+    list-style-type: none; 
+    text-align: center; 
+}
+
+a:link {
+    color: rgb(28, 28, 156);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(8, 17, 0);
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+nav ul li {
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: #eccbb0;
+}
+
+.hero-image { 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title{
+    font-size: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.screenshot {
+float: left;
+width: 50%;
+}
+
+.screen {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+.text{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(75, 75, 50);
+    width: 320px;
+    padding: 10px;
+    margin: 0;
+}
+
+footer ul li{
+    float: left;
+    padding: 20px;
+    text-align: center;
